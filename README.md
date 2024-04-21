@@ -1,3 +1,7 @@
+
+![image](https://github.com/a2rp/task-scheduler/assets/5670738/8f7e53d6-bbf3-4ede-9220-896379399f8d)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
