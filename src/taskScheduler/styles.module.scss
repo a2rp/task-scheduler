@@ -1,0 +1,72 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.container {
+    // border: 1px solid #f00;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+    .main {
+        // border: 1px solid #f00;
+        width: 100%;
+        max-width: 1400px;
+
+        .heading {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .inputTaskContainer {
+            margin-top: 30px;
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+
+            @media only screen and (width<1000px) {
+                flex-wrap: wrap;
+            }
+
+            input[type="date"]::-webkit-calendar-picker-indicator {
+                background: transparent;
+                bottom: 0;
+                color: transparent;
+                cursor: pointer;
+                height: auto;
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: auto;
+            }
+
+            .submitButton {
+                height: 50px;
+                overflow: hidden;
+            }
+        }
+
+        .taskListContainer {
+            margin-top: 30px;
+
+            .taskListHeading {
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            .tasksListSelect {
+                margin-top: 15px;
+            }
+
+            .tasksTable {
+                margin-top: 15px;
+            }
+        }
+    }
+}
