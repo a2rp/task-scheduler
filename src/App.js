@@ -1,17 +1,12 @@
-import React from 'react'
-import TaskScheduler from './taskScheduler'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import TaskScheduler from "./taskScheduler";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-const App = () => {
-    return (
-        <div>
-            <TaskScheduler />
+const App = () => (
+    <>
+        <TaskScheduler />
+        <ToastContainer position="bottom-right" autoClose={2400} />
+    </>
+);
 
-            <ToastContainer />
-        </div>
-    )
-}
-
-export default App
-
+export default App;

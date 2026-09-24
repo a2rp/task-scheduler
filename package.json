@@ -1,7 +1,8 @@
 {
-  "name": "frontend",
+  "name": "task-scheduler",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://a2rp.github.io/task-scheduler/",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -28,21 +29,10 @@
     "deploy": "npx --yes gh-pages -d build -b gh-pages"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   }
 }
